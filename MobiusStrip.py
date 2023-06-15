@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-R = 2
+R = 2 # Adjust dimensions of Mobius strip here.
 u = np.linspace(0, 2*np.pi, 100)
 v = np.linspace(-1, 1, 100)
 u, v = np.meshgrid(u, v)
